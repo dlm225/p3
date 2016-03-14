@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('welcome');});
+Route::get('/temp', function() {return 'Temp page successful!';});
 
 /*
 |--------------------------------------------------------------------------
