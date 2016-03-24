@@ -1,17 +1,6 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Routes File
-|--------------------------------------------------------------------------
-|
-| Here is where you will register all of the routes in an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
-
-Route::get('/', function () {return 'This is the main page';});
+Route::get('/', 'IndexController@index');
 Route::get('/text', 'TextGenController@getText');
 Route::get('/text/lorem', 'TextGenController@getLorem');
 Route::get('/text/sports', 'TextGenController@getSports');
