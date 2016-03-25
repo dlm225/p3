@@ -20,7 +20,8 @@ class LoremController extends Controller {
     public function postShow(Request $request) {
         $this->validate($request,[
             'paras' => 'required|numeric|min:1|max:50']);
-        return view('lorem.show')
+        return view('lorem.loremshow')
             ->with('paras', $request->input('paras'));
     }
+
 }
