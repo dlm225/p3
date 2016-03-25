@@ -25,7 +25,7 @@
         <img
         class="center-block"
         src='http://sunnymob.com/static/img/tools.svg'
-        style='width:150px'
+        style='width:100px'
         alt='DBF Logo'>
         </a>
         <h1 class="text-center">Developer's Best Friend</h1>

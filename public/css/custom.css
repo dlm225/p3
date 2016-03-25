@@ -46,6 +46,9 @@ nav ul li {
     margin-right:5px;
 }
 
+.backgray {
+    background-color: lightgray;
+}
 
 /*----------------------------------------------------
 Forms

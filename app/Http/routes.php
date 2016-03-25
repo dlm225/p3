@@ -1,9 +1,8 @@
 <?php
 
 Route::get('/', 'IndexController@index');
-Route::get('/text', 'TextGenController@getText');
-Route::get('/text/lorem', 'TextGenController@getLorem');
-Route::get('/text/sports', 'TextGenController@getSports');
+Route::get('/lorem', 'LoremController@getLorem');
+
 Route::get('/temp', function() {return 'Temp page successful!';});
 
 /*
