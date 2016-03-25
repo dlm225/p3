@@ -24,7 +24,7 @@
         <a href="/">
         <img
         class="center-block"
-        src='http://sunnymob.com/static/img/tools.svg'
+        src='/images/tools.svg'
         style='width:100px'
         alt='DBF Logo'>
         </a>

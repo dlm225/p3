@@ -12,6 +12,7 @@
 </div>
 <br />
 <div class="col-md-8 col-md-offset-2">
+    <p>
     <?php
         $generator = new Badcow\LoremIpsum\Generator();
         $paragraphs = $generator->getParagraphs($paras);
