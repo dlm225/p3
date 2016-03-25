@@ -13,4 +13,11 @@ class LoremController extends Controller {
         return view('lorem/main');
     }
 
+    /**
+     * Responds to requests to GET /lorem/show
+     */
+    public function getShow($paras = null) {
+        return view('lorem.show')
+            ->with('paras',$paras);
+    }
 }

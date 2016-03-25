@@ -50,6 +50,14 @@ nav ul li {
     background-color: lightgray;
 }
 
+
+.center {
+    text-align:center;
+}
+
+.center form {
+    display:inline-block;
+}
 /*----------------------------------------------------
 Forms
 -----------------------------------------------------*/

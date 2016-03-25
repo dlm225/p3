@@ -2,6 +2,7 @@
 
 Route::get('/', 'IndexController@index');
 Route::get('/lorem', 'LoremController@getLorem');
+Route::get('/lorem/show', 'LoremController@getShow');
 
 Route::get('/temp', function() {return 'Temp page successful!';});
 
