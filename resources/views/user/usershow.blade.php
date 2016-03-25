@@ -13,7 +13,7 @@
 <br />
 <div class="container">
     <p>
-        @for ($i = 0; $i < 10; $i++)
+        @for ($i = 0; $i < $users; $i++)
             <div class="fancybox">
                 <?php
                     require_once '../vendor/fzaninotto/faker/src/autoload.php';
