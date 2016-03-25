@@ -87,18 +87,29 @@ input[type=text],input[type=password],select {
 .fancybox {
     border-radius: 20%;
     box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
-    padding:15px;
-    width: 600px;
+    padding:25px;
+    width: 700px;
+    height: 250px;
     background-color: #FFCC99;
+    margin: auto;
+}
+
+.profiletextdiv {
+    width: 300px;
+    float: left;
+    overflow: auto;
 }
 
 .profilepic {
     height: 200px;
     border-radius: 10%;
+    float: right;
 }
 
-th, td {
-    padding: 10px;
+.profilepicdiv {
+    width: 300px;
+    float: right;
+    overflow: auto;
 }
 
 /*----------------------------------------------------

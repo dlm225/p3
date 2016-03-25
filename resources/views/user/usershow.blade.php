@@ -18,14 +18,14 @@
                 <?php
                     require_once '../vendor/fzaninotto/faker/src/autoload.php';
                     $faker = Faker\Factory::create('en_US');
-                    echo '<table><tr><td>';
-                    echo '<h2>'.$faker->name.'</h2><br />';
+                    echo '<div class="profiletextdiv">';
+                    echo '<h2>'.$faker->name.'</h2>';
                     echo $faker->streetAddress.'<br />';
                     echo $faker->city.', '.$faker->stateAbbr.' '.$faker->postcode.'<br />';
                     echo $faker->phoneNumber.'<br />';
                     echo $faker->email.'<br />';
-                    echo $faker->company.'<br /></td>';
-                    echo '<td><img class="profilepic" src='.$faker->imageUrl($width = 640, $height = 480).'></td><tr></table>' // 'http://lorempixel.com/640/480/'
+                    echo 'Works at: '.$faker->company.'<br /></div>';
+                    echo '<div class="profilepicdiv"><img class="profilepic" src='.$faker->imageUrl($width = 640, $height = 480).'></div>' // 'http://lorempixel.com/640/480/'
                 ?>
             </div>
             <br />
