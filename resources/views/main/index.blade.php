@@ -5,13 +5,6 @@
 @stop
 
 @section('content')
-<nav class="text-center">
-    <ul>
-        <li><a href='/lorem'>Generate Lorem Ipsum</a></li>
-        <li><a href='/user'>Generate Random User</a></li>
-    </ul>
-</nav>
-<br />
 <div class="container">
     <div class="col-md-6 backgray" style="float:left;">
         <p>
@@ -33,6 +26,7 @@
                 </p>
             </div>
         </p>
+        <div class="text-center"><a href="/lorem"><button class="btn btn-primary">Generate Ipsum Lorem</button></a></div>
     </div>
     <div class="col-md-6 backgray" style="float:right;">
         <p>
@@ -54,6 +48,7 @@
                 ?>
             </div>
         </p>
+        <div class="text-center"><a href="/user"><button class="btn btn-primary">Generate Fake Persona</button></a></div>
     </div>
 </div>
 @stop
