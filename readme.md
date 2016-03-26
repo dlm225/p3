@@ -15,6 +15,7 @@ No login required.
 
 ## Outside code
 
+* Site constructed with Laravel: http://laravel.com
 * Bootstrap v3.3.5: directly linked from http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
 * Font Awesome v4.4.0: directly linked from http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
 * Bootstrap Lumen: directly linked form http://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/lumen/bootstrap.min.css

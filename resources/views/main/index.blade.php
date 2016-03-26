@@ -18,7 +18,7 @@
                     Vivamus per curabitur cras aptent habitant diam ornare libero, elementum sollicitudin metus
                     luctus aliquet id curae non, risus litora at varius sapien at taciti. Lobortis nullam pellentesque
                     neque nam quis dictumst posuere, curabitur libero ac diam non pretium aliquam, facilisis iaculis
-                    sem gravida lacus iaculis. <p> Consectetur maecenas donec eu nisl fermentum sit imperdiet purus ac
+                    sem gravida lacus iaculis. <br /><br /> Consectetur maecenas donec eu nisl fermentum sit imperdiet purus ac
                     donec senectus est cras netus interdum, pretium leo convallis sit neque tristique a taciti fusce
                     neque turpis pulvinar erat. Aptent habitasse est sollicitudin mi mauris metus litora habitasse
                     cras curae nunc magna inceptos, felis vivamus senectus suspendisse etiam inceptos donec fames vel
@@ -26,7 +26,7 @@
                 </p>
             </div>
         </p>
-        <div class="text-center"><a href="/lorem"><button class="btn btn-primary">Generate Ipsum Lorem</button></a></div>
+        <div class="text-center"><button onclick="/lorem" class="btn btn-primary">Generate Ipsum Lorem</button></div>
     </div>
     <div class="col-md-6 backgray" style="float:right;">
         <p>
@@ -46,11 +46,11 @@
                     echo $faker->phoneNumber.'<br />';
                     echo $faker->email.'<br />';
                     echo 'Works at: '.$faker->company.'<br /></div>';
-                    echo '<div class="profilepicdiv2"><img class="profilepic2" src='.$faker->imageUrl($width = 640, $height = 480).'></div>' // 'http://lorempixel.com/640/480/'
+                    echo '<div class="profilepicdiv2"><img class="profilepic2" alt="Profile image" src='.$faker->imageUrl($width = 640, $height = 480).'></div>' // 'http://lorempixel.com/640/480/'
                 ?>
             </div>
         </p>
-        <div class="text-center"><a href="/user"><button class="btn btn-primary">Generate Fake Persona</button></a></div>
+        <div class="text-center"><button onclick="/user" class="btn btn-primary">Generate Fake Persona</button></div>
     </div>
 </div>
 @stop
