@@ -108,7 +108,7 @@ input[type=text],input[type=password],select {
 }
 
 .profiletextdiv {
-    width: 300px;
+    width: 350px;
     float: left;
     overflow: hidden;
     text-overflow: ellipsis;

@@ -20,6 +20,7 @@
                     $faker = Faker\Factory::create('en_US');
                     echo '<div class="profiletextdiv">';
                     echo '<h2>'.$faker->name.'</h2>';
+                    echo 'DOB: '.$faker->dayOfMonth().' '.$faker->monthName().' '.$faker->year($max = '1996').'<br />';
                     echo $faker->streetAddress.'<br />';
                     echo $faker->city.', '.$faker->stateAbbr.' '.$faker->postcode.'<br />';
                     echo $faker->phoneNumber.'<br />';

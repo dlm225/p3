@@ -34,11 +34,13 @@
             The Random User Generator creates up to 50 random personas, complete with first and last name,
             full mailing address, phone number, email address, place of employment and profile image.<br /><br />
             <div class="fancyboxsilver">
+                <h4>Example:</h4>
                 <?php
                     require_once '../vendor/fzaninotto/faker/src/autoload.php';
                     $faker = Faker\Factory::create('en_US');
                     echo '<div class="profiletextdiv2">';
                     echo '<h4>'.$faker->name.'</h4>';
+                    echo 'DOB: '.$faker->dayOfMonth().' '.$faker->monthName().' '.$faker->year($max = '1996').'<br />';
                     echo $faker->streetAddress.'<br />';
                     echo $faker->city.', '.$faker->stateAbbr.' '.$faker->postcode.'<br />';
                     echo $faker->phoneNumber.'<br />';
