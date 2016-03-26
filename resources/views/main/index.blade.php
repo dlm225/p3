@@ -26,7 +26,7 @@
                 </p>
             </div>
         </p>
-        <div class="text-center"><button onclick="/lorem" class="btn btn-primary">Generate Ipsum Lorem</button></div>
+        <div class="text-center"><button onclick="location.href='/lorem'" class="btn btn-primary">Generate Ipsum Lorem</button></div>
     </div>
     <div class="col-md-6 backgray" style="float:right;">
         <p>
@@ -50,7 +50,7 @@
                 ?>
             </div>
         </p>
-        <div class="text-center"><button onclick="/user" class="btn btn-primary">Generate Fake Persona</button></div>
+        <div class="text-center"><button onclick="location.href='/user'" class="btn btn-primary">Generate Fake Persona</button></div>
     </div>
 </div>
 @stop
