@@ -7,7 +7,6 @@
 @section('content')
 <div class="container">
     <div class="col-md-6 backgray" style="float:left;">
-        <p>
             <h3 class="text-center">Lorem Ipsum</h3>
             Lorem Ipsum has been the dummy text of the printing and typesetting industry since the 1500s.
             It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -25,11 +24,10 @@
                     sapien ante.
                 </p>
             </div>
-        </p>
+        <br />
         <div class="text-center"><button onclick="location.href='/lorem'" class="btn btn-primary">Generate Ipsum Lorem</button></div>
     </div>
     <div class="col-md-6 backgray" style="float:right;">
-        <p>
             <h3 class="text-center">Random User</h3>
             The Random User Generator creates up to 50 random personas, complete with first and last name,
             full mailing address, phone number, email address, place of employment and profile image.<br /><br />
@@ -49,7 +47,7 @@
                     echo '<div class="profilepicdiv2"><img class="profilepic2" alt="Profile image" src='.$faker->imageUrl($width = 640, $height = 480).'></div>' // 'http://lorempixel.com/640/480/'
                 ?>
             </div>
-        </p>
+        <br />
         <div class="text-center"><button onclick="location.href='/user'" class="btn btn-primary">Generate Fake Persona</button></div>
     </div>
 </div>
