@@ -38,7 +38,8 @@
 
     <footer>
         &copy; {{ date('Y') }} &nbsp;&nbsp;
-        <a href='https://github.com/dlm225/p3 class='fa fa-github' target='blank'> View on Github </a>
+        <a href='https://github.com/dlm225/p3' class='fa fa-github' target='blank'> View on Github </a> ---
+        <a href='/about'> About </a>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

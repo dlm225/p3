@@ -12,4 +12,12 @@ class MainController extends Controller {
     public function index() {
         return view('main.index');
     }
+
+    /**
+    * Responds to requests to GET /about
+    */
+    public function about() {
+        return view('main.about');
+    }
+
 }

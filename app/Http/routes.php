@@ -7,5 +7,6 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/lorem/show', 'LoremController@postShow');
     Route::get('/user', 'UserController@getUser');
     Route::post('/user/show', 'UserController@postUsers');
+    Route::get('/about', 'MainController@about');
 
 });
