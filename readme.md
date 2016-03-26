@@ -1,4 +1,4 @@
-# p2
+# p3
 CSCI E-15 Project 3 - Developer's Best Friend
 
 ## Live URL
@@ -8,7 +8,7 @@ CSCI E-15 Project 3 - Developer's Best Friend
 Developer's Best Friend is a simple content generation site comprised of two sections - the first provides the user the ability to create between 1 and 50 paragraphs of Lorem-Ipsum text, the second provides the user the ability to create between 1 and 50 complete fake personas.  Each persona is output to the screen with full name, date of birth, address, phone number, email address, place of work, and a social media profile image.  Content is easily extracted from the site through copy-paste to any application the user desires.
 
 ## Demo
-<http://screencast.com/t/mqYQvdcB9>
+<http://www.screencast.com/t/F79lvyZg>
 
 ## Details for teaching team
 No login required.
