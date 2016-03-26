@@ -1,27 +1,23 @@
-# Laravel PHP Framework
+# p2
+CSCI E-15 Project 3 - Developer's Best Friend
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Live URL
+<http://p3.fortmorgan.us>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Description
+Developer's Best Friend is a simple content generation site comprised of two sections - the first provides the user the ability to create between 1 and 50 paragraphs of Lorem-Ipsum text, the second provides the user the ability to create between 1 and 50 complete fake personas.  Each persona is output to the screen with full name, date of birth, address, phone number, email address, place of work, and a social media profile image.  Content is easily extracted from the site through copy-paste to any application the user desires.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Demo
+<http://screencast.com/t/mqYQvdcB9>
 
-## Official Documentation
+## Details for teaching team
+No login required.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## Outside code
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+* Bootstrap v3.3.5: directly linked from http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
+* Font Awesome v4.4.0: directly linked from http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+* Bootstrap Lumen: directly linked form http://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/lumen/bootstrap.min.css
+* Lorem Ipsum Generator: "Lorem-Ipsum" (badcow/lorem-ipsum) at https://packagist.org/packages/badcow/lorem-ipsum
+* Persona Generator: "Faker" (fzaninotto/faker) at https://packagist.org/packages/fzaninotto/faker
+* Website Logo: Flaticon at http://www.flaticon.com/free-icons/worker_22204
